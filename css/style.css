@@ -52,11 +52,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@font-face {
-  font-family: myriad;
-  src: url("fonts/MyriadPro-Regular.otf") format("opentype");
-}
-
 article,
 aside,
 figcaption,
@@ -10641,7 +10636,6 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
   font-size: 15px;
   line-height: 1.8;
   font-weight: normal;
@@ -10686,7 +10680,6 @@ h5,
 .h5 {
   line-height: 1.5;
   font-weight: 400;
-  font-family: "Poppins", Arial, sans-serif;
 }
 
 .ftco-section {
@@ -10798,7 +10791,6 @@ h5,
 .owl-carousel.home-slider .slider-item .slider-text h2 {
   font-size: 1.5rem;
   letter-spacing: 2px;
-  font-family: "Poppins", Arial, sans-serif;
   color: #a0afc2;
   display: inline-block;
   position: relative;
@@ -10897,6 +10889,13 @@ h5,
   touch-action: pan-y;
 }
 
+
+
+@font-face {
+  font-family: myriad;
+  src: url("fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
 #carousel {
   position: relative;
   z-index: 2; 
@@ -10908,6 +10907,11 @@ h5,
 #carousel h1 {
   font-size: 3rem!important;
 }
+
+body * {
+  font-family: myriad;
+}
+
 
 /* Smaller screens */
 @media (max-width: 768px) {
